@@ -63,6 +63,12 @@ main {
   padding: 20px 36px 40px;
 }
 
+.main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .main h2 {
   font-size: 30px;
   padding: 0 0 10px 0;
@@ -97,12 +103,16 @@ footer {
     flex-wrap: wrap
 }
 
+img {
+    width: 47%;
+}
+
 .sociais {
     width: 16vw;
 }
 
 .sociais ul {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     align-items: center;
     list-style: none;
@@ -122,7 +132,7 @@ footer {
 }
 
 .rede a {
-    font-size: 20px;
+    font-size: 27px;
     text-decoration: none;
     color: #fff;
 }
